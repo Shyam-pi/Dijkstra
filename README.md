@@ -19,6 +19,6 @@ Steps to run:
 7. If the algorithm is unable to solve for the optimal path using the start and goal points (Open list gets empty before reaching the goal node), the algorithm terminates, followed by a matplotlib window displaying the nodes explored.
 8. If you don't want to display the animated plot, comment out 'plt.show()' and uncomment the previous line 'anim.save('dijkstra.gif', writer = 'imagemagick', fps=60)'
 
-GIF showcasing the implemented algorithm:
+GIF showcasing the implemented algorithm : start position (6,6) , goal position (440,125) - (x,y) coordinates:
 
 ![](https://github.com/Shyam-pi/Dijkstra/blob/main/dijkstra.gif)
