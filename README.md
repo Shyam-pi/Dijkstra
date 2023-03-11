@@ -18,3 +18,4 @@ Steps to run:
 6. Post this, a matplotlib animation window opens up, showing the nodes explored in red color, in the order they were explored, followed by the optimal path in green.
 7. If the algorithm is unable to solve for the optimal path using the start and goal points (Open list gets empty before reaching the goal node), the algorithm terminates, followed by a matplotlib window displaying the nodes explored.
 8. If you don't want to display the animated plot, comment out 'plt.show()' and uncomment the previous line 'anim.save('dijkstra.gif', writer = 'imagemagick', fps=60)'
+
