@@ -17,5 +17,5 @@ Steps to run:
 5. Once this is done, according to the start and goal locations, wait for around '1 - 4 seconds' for Djikstra algorithm to get the optimal path, when a message saying "SUCCESS WOOHOO!" gets displayed on the screen along with the time taken to solve the same.
 6. Post this, a matplotlib animation window opens up, showing the nodes explored in red color, in the order they were explored, followed by the optimal path in green.
 7. If the algorithm is unable to solve for the optimal path using the start and goal points (Open list gets empty before reaching the goal node), the algorithm terminates, followed by a matplotlib window displaying the nodes explored.
-8. If you don't want to display the animated plot, comment out 'plt.show()' and uncomment the previous line 'anim.save('dijkstra.gif', writer = 'imagemagick', fps=60)'
+8. If you don't want to display the animated plot, comment out 'plt.show()' and uncomment the previous line 'anim.save('dijkstra.gif', writer = 'imagemagick', fps=
 
